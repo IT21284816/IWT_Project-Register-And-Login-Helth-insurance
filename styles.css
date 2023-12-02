@@ -1,0 +1,192 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin : 0;
+  padding: 0;
+  
+}
+header {
+    color:black;
+    text-align: center;
+    padding: 0px ;
+}
+#hh1{
+	font-size: 50px;
+	margin-top : 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+#m1 {
+        width: 100px;
+        float: left;
+        margin-right: 10px;
+        margin-top:-5px;
+    
+        }
+        #m2{
+            width:60px;
+            float:right;
+            margin-right:10px;
+          
+        }
+        
+        a {
+        color: #f1eeee;
+        }
+        
+        #container {
+        
+            padding-left: 5px;
+            padding-right: 5px;
+            
+            
+
+       
+        }
+        
+        nav {
+        margin: 50px 0 ;
+        background-color: rgb(15, 15, 15);
+        }
+        
+        nav ul {
+        padding: 10px;
+        margin: 0;
+        list-style: none;
+        position: relative;
+        }
+        
+        nav ul li {
+        display: inline-block;
+        background-color: rgb(15, 15, 15);
+        }
+        
+        nav a {
+        display: block;
+        padding: 0 10px;
+        color: white;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+        }
+        
+        nav a:hover {
+        background-color: gray;
+        }
+        
+        
+        nav ul ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        }
+        
+        
+        nav ul li:hover > ul {
+        display: inherit;
+        }
+        
+        /* Fisrt Tier Dropdown */
+        nav ul ul li {
+        width: 250px;
+        float: none;
+        display: list-item;
+        position: relative;
+        }
+        .sign{
+            float: right;
+        }
+    
+    #p1 {
+        font-family:cursive;
+        font-size:100%;
+    }
+    
+    #p2 {
+        font-family:cursive;
+        font-size:100%;
+    }
+    
+    * {
+        box-sizing: border-box
+    }
+	.footer{
+    left:0;
+    bottom:0;
+    position:inherit;
+    width: 100%;
+    background-color: rgb(147, 147, 215);
+
+    
+}
+
+#about{
+    color:#EFEFEF;
+    background-color:rgb(73, 73, 158);
+    border-color: rgb(73, 73, 158); 
+    font-size: 30px;
+    border-radius: 8px;
+    margin: 10px;
+    inline-size: 200px;
+    margin-bottom: 50px;
+	padding: 5px 0 0 0;
+    
+}
+#contact{
+    float: right;
+    color:white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:15px;
+    margin-right:10px;
+}
+#icon{
+    text-align:right;
+    margin-right: 20px;
+    margin-bottom: 10px;;
+    color:white;
+    
+}
+.background
+{
+  
+    background-image: url('images/lback.jpg');
+    background-size: cover; /* Cover the entire window */
+    background-repeat: no-repeat;
+    background-position: center;
+	
+}
+
+
+

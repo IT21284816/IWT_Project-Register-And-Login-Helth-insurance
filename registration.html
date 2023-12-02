@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+
+<head>
+  <center>
+  <h1 id = "hh1"><br>Health Gurdian Insurance<h1></h1>
+  </center>
+  <link rel="stylesheet" href="registration.css">
+  <title>Registration</title>
+</head>
+<body>
+
+  <img src="images/logo1.png" id="m1">
+    
+           <img src="images/profile2.png" id="m2">
+   
+           
+       <div id="container">
+           <nav>
+               <ul>
+                   <li><a href="">HOME</a></li>
+                   <li>
+                       <a href="#">Contact US</a>
+                   </li>
+				   <li><a href="">Login</a></li>
+				   <li><a href="">Registration</a></li>
+                   <li>
+                       <a href="#"  class="active" target="_blank">PLANS</a>
+                       <ul>
+                           <li><a href="#" target="_blank">User Account</a></li>
+                           <li><a href="#" target="_blank">Package</a></li>
+                           <li><a href="#" target="_blank">Privacy  & Policy </a></li>
+                           <li><a href="#" target="_blank">Terms & Condition </a></li>
+                           <li><a href="#" target="_blank">Facility </a></li>
+                       </ul>
+                   </li>
+                   <li CLASS="sign"><a CLASS="sign"href="login.php">SIGNIN</a></li>
+                   <li CLASS="sign"><a  CLASS="sign"href="#">SIGNUP</a></li>
+               </ul>
+           </nav>
+   
+           
+       
+	   
+	   <div class="background">
+       <div class="container">
+       <div class="header">
+  
+    <h1>Registration</h1>
+    <form id="registration-form" method="post" action="registration.php">
+      <div class="form-group">
+	  <b>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+		  </b>
+        </select>
+      </div>
+      <button type="submit">Register</button>
+	   <button type="submit" class="button">Delete</button>
+    </form>
+  </div>
+  <script src="registration.js"></script>
+  
+  <footer>
+	
+    <div class="footer" ><br>
+        <button id="about">Chat With US</button>
+        <b id="contact">Contact us<b>
+        <br>
+        
+    </div>
+</footer>
+ 
+
+</body>
+</html>
